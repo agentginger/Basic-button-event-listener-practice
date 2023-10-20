@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>QuerySelect Practice</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css" >
+  </head>
+  <body>
+  <div class="first-div">
+    <div class="second-div">
+      <button id="Press-Me">Press Me</button>
+    </div>
+  </div>
+<h1><span>omg</span> woah the box changes colour and moves mind blown &#128561;</h1>
+
+<script>
+  ////adding and testing the selector for the first div element 
+  const boxChange = document.querySelector("div");
+  console.log(boxChange);
+
+  //adding and testing the selector for the button element 
+  const myButton = document.querySelector("#Press-Me");
+  console.log(myButton);
+ 
+  //adding and testing the selector for the H1 element 
+  const text = document.querySelector("h1");
+  console.log(text);
+
+
+  /*
+  Taking the variable and adding an event listener that is listening 
+  for a mouse click within the confines of the button that parse through
+  a function that is called "myFunction"
+  */
+  myButton.addEventListener("click", myFunction);
+
+  //This is the called upon function that toggles the addition and removing of the "JS-class" CSS selector
+  function myFunction() {
+    boxChange.classList.toggle("JS-class")
+    myButton.classList.toggle("button-press-styles")
+    text.classList.toggle("text-markup")
+    myButton.style.fontFamily("Georgia")
+  };
+
+
+
+
+</script>
+  </body>
+</html>

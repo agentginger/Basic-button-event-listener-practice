@@ -1,0 +1,37 @@
+.first-div {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+  
+}
+
+.second-div {
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.JS-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(60, 170, 173);
+}
+
+.text-markup {
+text-transform: capitalize;
+font-family: Arial, Helvetica;
+color: rgb(102, 100, 100);
+}
+
+.button-press-styles {
+  padding: 25px 25px;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+}
+
